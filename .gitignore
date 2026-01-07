@@ -1,0 +1,9 @@
+# Ignorar archivo de configuración real
+config/config.php
+
+# Ignorar carpetas de dependencias (si usaras Composer)
+/vendor/
+
+# Ignorar archivos temporales o de sistema
+.DS_Store
+Thumbs.db

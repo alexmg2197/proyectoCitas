@@ -1,0 +1,8 @@
+# Impedir que se listen los archivos de este directorio
+Options -Indexes
+
+# Denegar el acceso a todos los archivos de esta carpeta
+<Files *>
+    Order Deny,Allow
+    Deny from all
+</Files>
